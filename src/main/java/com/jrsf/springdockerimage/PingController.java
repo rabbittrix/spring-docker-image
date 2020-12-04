@@ -13,6 +13,8 @@ public class PingController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public void ping(){
+
         System.out.println("Everything working");
+        System.out.println("Live reload worked too");
     }
 }
